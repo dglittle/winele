@@ -1,0 +1,23 @@
+{
+  "name": "winele",
+  "version": "1.0.0",
+  "description": "another test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.1",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dglittle/winele.git"
+  }
+}
